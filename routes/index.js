@@ -16,7 +16,7 @@ router.get('/pi', function(req, res, next) {
      * @returns {number}
      */
     function estimatePi() {
-        var n = 10000000, inside = 0, i, x, y;
+        var n = 1000000000, inside = 0, i, x, y;
 
         for ( i = 0; i < n; i++ ) {
             x = Math.random();
